@@ -8,7 +8,7 @@
 <header class="page-header">
   <h1 class="page-header__title">Седона</h1><!--скрыт-->
   <nav class="main-nav">
-    <ul class="main-nav main-nav__list">
+    <ul class="main-nav__list">
       <li class="main-nav__item--active"><a class="main-nav__link" href="#">Главная</a></li>
       <li class="main-nav__item"><a class="main-nav__link" href="#">Фото и видео</a></li>
       <li class="main-nav__item"><a class="main-nav__link" href="#">Форма отзыва</a></li>
@@ -25,12 +25,15 @@
       <img class="intro-pict" src="http://placehold.it/150x100" width="150" height="100" alt="">
     </div>
 <main>
+  <div class="main-container">
     <div class="review">
-    <div class="review_wrapper">
-      <h2 class="review__title">Оставьте свой отзыв</h2>
-      <p>Помогите нашим отелям стать лучше!<br>
+      <h1 class="review__title">Оставьте свой отзыв</h1>
+      <p class="review_text">Помогите нашим отелям стать лучше!<br>
         Оставьте отзыв о них а также о посещенный вами достопримечательностях</p>
-      <div class="introduction">
+    </div>
+    <form class="form">
+      <div class="form-wrapper">
+    <div class="introduction">
         <h3 class="introduction__title">Представьтесь:</h3>
         <label class="introduction" for="introduction__name">Имя*:</label>
         <input type="text" id="introduction__name" name="introduction__name" value="Петр" required>
@@ -76,28 +79,21 @@
         </div>
         </div>
       </div>
+    </form>
+  </div>
+  <footer class="page-footer">
+    <div class="hashtegsedona">
+      <a class="hashtegsedona" href=""><h3 class="page-footer__title">#visit sedona</h3></a>
     </div>
-</main>
-<footer class="page-footer">
-  <div class="page-footer_tegsedona">
-    <h3 class="page-footer__title">#visit sedona</h3>
-  </div>
-  <div class="page-footer__social">
-    <ul class="social-links">
-      <li class="social-links__item-link social-links__item-link--fb">
-        <a сlass="social-links__item-link--fb" href="#"></a>
-      </li>
-      <li class="social-links__item">
-        <a сlass="social-links__item-link social-links__item-link--tw" href="#"></a>
-      </li>
-      <li class="social-links__item">
-        <a сlass="social-links__item-link social-links__item-link--youtube" href="#"></a>
-      </li>
-    </ul>
-  </div>
-  <div class="page-footer__copyright">
-    <span class="page-footer__develop">Разработано</span>
-    <a class="page‐footer__copyright‐link" href="#"></a>
-         </div>
+    <div class="page-footer-social">
+      <a сlass="footer-social__link--fb" href="#"></a>
+      <a сlass="footer-social__link--tw" href="#"></a>
+      <a сlass="footer-social__link--youtube" href="#"></a>
+    </div>
+    <div class="page-footer-copyright">
+      <span class="page-footer__develop">Разработано</span>
+      <a class="page‐footer__copyright‐link" href="#"></a>
+    </div>
   </footer>
-  </body>
+</main>
+</body>

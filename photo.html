@@ -8,7 +8,7 @@
 <header class="page-header">
   <h1 class="page-header__title">Седона</h1><!--скрыт-->
   <nav class="main-nav">
-    <ul class="main-nav main-nav__list">
+    <ul class="main-nav__list">
       <li class="main-nav__item--active"><a class="main-nav__link" href="#">Главная</a></li>
       <li class="main-nav__item"><a class="main-nav__link" href="#">Фото и видео</a></li>
       <li class="main-nav__item"><a class="main-nav__link" href="#">Форма отзыва</a></li>
@@ -24,37 +24,46 @@
 <div class="intro">
   <img class="intro-pict" src="http://placehold.it/150x100" width="150" height="100" alt="">
 </div>
-<h2 class="page-header_title">Седона</h2>
-<main>
-  <h1 class="photo-gallery__title">Фото и видео</h1>
-  <section class="photo-gallery">
+<main class="main-container">
+  <section class="photo-video">
+    <h1 class="photo-video__title">Фото и видео</h1>
     <p>Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике</p>
   </section>
-  <div class="photo">
-    <div class="photo-item">
-      <img src="http://placehold.it/150x100" width="" height="" alt="">
-      <h4>неприродные просторы</h4>
-      <span>Автор фото:Борис</span>
-      <img src="#"> <span>1350</span>
+  <section class="photo">
+    <article class="photo-1">
+    <a class="photo-1" href="" ><img src="http://placehold.it/150x100" width="" height="" alt=""></a>
+      <div class="photo-1">
+        <h3 class="photo-1__title">неприродные просторы</h3>
+        <span class="photo-1__author">Автор фото:Борис</span>
+        <a class="photo-1" href=""><span class="count-1">1350</span></a>
+      </div>
+    </article>
+    <article class="photo-2">
+      <a class="photo-2" href=""><img src="http://placehold.it/150x100" width="" height="" alt=""></a>
+      <div class="photo-2">
+        <h3 class="photo-2__title">местная растительность</h3>
+        <span class="photo-2__author">Автор фото:Сергей</span>
+        <a class="photo-2" href=""><span class="count-2">143</span></a>
+      </div>
+    </article>
+    <article class="photo-3">
+      <a class="photo-3" href=""><img src="http://placehold.it/150x100" width="" height="" alt=""></a>
+      <div class="photo-3">
+        <h3 class="photo-3__title">дорога на север</h3>
+        <span class="photo-3__author">Автор фото:Петр</span>
+        <a class="photo-3" href=""><span class="count-3">96</span></a>
+      </div>
+    </article>
+    <article class="photo-4">
+      <a class="photo-4" href=""><img src="http://placehold.it/150x100" width="" height="" alt=""></a>
+    <div class="photo-4">
+      <h3 class="photo-4__title">мост дьявола</h3>
+      <span class="photo-4__author">Автор фото:Антон</span>
+      <a class="photo-4" href=""><span class="count-4">254</span></a>
     </div>
-    <div class="photo-item">
-      <img src="http://placehold.it/150x100" width="" height="" alt="">
-      <h4 class="photo-item__title">местная растительность</h4>
-      <span>Автор фото:Сергей</span>
-      <img src="#"> <span>143</span>
-    </div>
-    <div class="photo-item">
-      <img src="http://placehold.it/150x100" width="" height="" alt="">
-      <h4 class="photo-item__title">дорога на север</h4>
-      <span>Автор фото:Петр</span>
-      <img src="#"> <span>96</span>
-    </div>
-    <div class="photo-item">
-      <img src="http://placehold.it/150x100" width="" height="" alt="">
-      <h4 class="photo-item__title">мост дьявола</h4>
-      <span>Автор фото:Антон</span>
-      <img src="#"> <span>254</span>
-    </div>
+  </article>
+  </section>
+  <section class="video">
     <div class="video">
       <h3 class="Video__title">Все еще сомневаетесь?</h3>
       <p>Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
@@ -62,28 +71,20 @@
         <source src="">
       </video>
     </div>
-  </div>
+  </section>
+  <footer class="page-footer">
+    <div class="hashtegsedona">
+      <a class="hashtegsedona" href=""><h3 class="page-footer__title">#visit sedona</h3></a>
+    </div>
+    <div class="page-footer-social">
+      <a сlass="footer-social__link--fb" href="#"></a>
+      <a сlass="footer-social__link--tw" href="#"></a>
+      <a сlass="footer-social__link--youtube" href="#"></a>
+    </div>
+    <div class="page-footer-copyright">
+      <span class="page-footer__develop">Разработано</span>
+      <a class="page‐footer__copyright‐link" href="#"></a>
+    </div>
+  </footer>
 </main>
-<footer class="page-footer">
-  <div class="page-footer_tegsedona">
-    <h3 class="page-footer__title">#visit sedona</h3>
-  </div>
-  <div class="page-footer__social">
-    <ul class="social-links">
-      <li class="social-links__item-link social-links__item-link--fb">
-        <a сlass="social-links__item-link--fb" href="#"></a>
-      </li>
-      <li class="social-links__item">
-        <a сlass="social-links__item-link social-links__item-link--tw" href="#"></a>
-      </li>
-      <li class="social-links__item">
-        <a сlass="social-links__item-link social-links__item-link--youtube" href="#"></a>
-      </li>
-    </ul>
-  </div>
-  <div class="page-footer__copyright">
-    <span class="page-footer__develop">Разработано</span>
-    <a class="page‐footer__copyright‐link" href="#"></a>
-  </div>
-</footer>
 </body>
