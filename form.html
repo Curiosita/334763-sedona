@@ -6,7 +6,7 @@
 </head>
 <body>
 <header class="page-header">
-  <h1 class="page-header__title">Седона</h1><!--скрыт-->
+  <h1 class="page-header__title">Седона>
   <nav class="main-nav">
     <ul class="main-nav__list">
       <li class="main-nav__item--active"><a class="main-nav__link" href="#">Главная</a></li>
@@ -22,57 +22,58 @@
   </div>
 </header>
     <div class="intro">
-      <img class="intro-pict" src="http://placehold.it/150x100" width="150" height="100" alt="">
+      <img class="intro__pict" src="http://placehold.it/150x100" width="150" height="100" alt="">
     </div>
+<div class="page-container">
 <main>
   <div class="main-container">
     <div class="review">
       <h1 class="review__title">Оставьте свой отзыв</h1>
-      <p class="review_text">Помогите нашим отелям стать лучше!<br>
+      <p class="review__text">Помогите нашим отелям стать лучше!<br>
         Оставьте отзыв о них а также о посещенный вами достопримечательностях</p>
     </div>
     <form class="form">
       <div class="form-wrapper">
     <div class="introduction">
         <h3 class="introduction__title">Представьтесь:</h3>
-        <label class="introduction" for="introduction__name">Имя*:</label>
-        <input type="text" id="introduction__name" name="introduction__name" value="Петр" required>
-        <label for="introduction__last-name">Фамилия*:</label>
-        <input type="text" id="introduction__last-name" name="introduction__last-name" value="Иванов" required>
-        <label for="intoduction__middle-name">Отчество:</label>
-        <input type="text" id="intoduction__middle-name" name="intoduction__middle-name" value="Александрович">
+        <label class="introduction__name" for="user-name">Имя*:</label>
+        <input type="text" id="user-name" name="user-name" value="Петр" required>
+        <label class="introduction__last-name" for="last-name">Фамилия*:</label>
+        <input type="text" id="last-name" name="last-name" value="Иванов" required>
+        <label class="introduction__middle-name" for="middle-name">Отчество:</label>
+        <input type="text" id="middle-name" name="middle-name" value="Александрович">
       </div>
       <div class="сontact">
         <h3 class="contact__title">Котактная информация:</h3>
-        <label for="contact__tel">Контактный телефон:</label>
-        <input type="tel" id="contact__tel" name="contact__tel" placeholder="Введите телефон">
-        <label for="email">Электронная почта:</label>
+        <label class="contact__tel" for="tel">Контактный телефон:</label>
+        <input type="tel" id="tel" name="tel" placeholder="Введите телефон">
+        <label class="email" for="email">Электронная почта:</label>
         <input type="email" id="email" name="email" placeholder="Введите e-mail">
       </div>
       <div class="impression">
         <h3 class="impression_title">Ваше общее впечатление:</h3>
-        <input type="radio" id="impression__positive" name="impression__positive" checked>
-        <label for="impression__positive">Скорее положительное</label>
-        <input type="radio" id="impression__negative" name="impression__negative">
-        <label for="impression__negative">Скорее отрицательное</label>
-        <input type="radio" id="impression__neutral" name="impression__neutral">
-        <label for="impression__neutral">Затрудняюсь ответить</label>
+        <input type="radio" id="positive" name="positive" checked>
+        <label class="impression__positive" for="positive">Скорее положительное</label>
+        <input type="radio" id="negative" name="negative">
+        <label class="impression__negative" for="negative">Скорее отрицательное</label>
+        <input type="radio" id="neutral" name="neutral">
+        <label class="impression__neutral" for="neutral">Затрудняюсь ответить</label>
       </div>
       <div class="visited">
         <h3 class="visited__title">Посещенные достопримечательности:</h3>
-        <input type="checkbox" id="visited__1" name="visited__1" checked>
-        <label for="visited__1">Мост Дьявола</label>
-        <input type="checkbox" id="visited__2" name="visited__2" checked>
-        <label for="visited__2">Слайд-парк</label>
-        <input type="checkbox" id="visited__3" name="visited__3">
-        <label for="visited__3">Гора Колокол</label>
-        <input type="checkbox" id="visited__4" name="visited__4" checked>
-        <label for="visited__4">Красные скалы</label>
+        <input type="checkbox" id="visited-1" name="visited-1" checked>
+        <label class="visited__1" for="visited-1">Мост Дьявола</label>
+        <input type="checkbox" id="visited-2" name="visited-2" checked>
+        <label class="visited__2" for="visited-2">Слайд-парк</label>
+        <input type="checkbox" id="visited-3" name="visited-3">
+        <label class="visited__3" for="visited-3">Гора Колокол</label>
+        <input type="checkbox" id="visited-4" name="visited-4" checked>
+        <label class="visited__4" for="visited-4">Красные скалы</label>
       </div>
       <div class="emotion">
         <h3 class="emotion__title">Опишите свои эмоции:</h3>
-        <textarea id="emotion" name="emotion" rows="5"
-                  placeholder="Опишите подробно все свои восторги"></textarea>
+        <textarea id="emotion" name="emotion" rows="5" placeholder="Опишите подробно все свои восторги">
+        </textarea>
         <div class="button">
           <input type="submit" value="Отправить отзыв">
           <span>*Обязательные поля</span>
@@ -81,19 +82,20 @@
       </div>
     </form>
   </div>
+  </main>
   <footer class="page-footer">
     <div class="hashtegsedona">
-      <a class="hashtegsedona" href=""><h3 class="page-footer__title">#visit sedona</h3></a>
+      <a class="hashtegsedona" href="">>#visit sedona></a>
     </div>
-    <div class="page-footer-social">
-      <a сlass="footer-social__link--fb" href="#"></a>
-      <a сlass="footer-social__link--tw" href="#"></a>
-      <a сlass="footer-social__link--youtube" href="#"></a>
+    <div class="social">
+      <a сlass="social__link social__link--fb" href="#"></a>
+      <a сlass="social__link social__link--tw" href="#"></a>
+      <a сlass="social__link social__link--youtube" href="#"></a>
     </div>
-    <div class="page-footer-copyright">
+    <div class="copyright">
       <span class="page-footer__develop">Разработано</span>
-      <a class="page‐footer__copyright‐link" href="#"></a>
+      <a class="copyright‐link" href="#"></a>
     </div>
   </footer>
-</main>
+</div>
 </body>
