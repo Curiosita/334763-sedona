@@ -1,10 +1,8 @@
 @import "normalize.less";
 
-@import "variables.less";
+@import "global/mixins.less";
+@import "global/variables.less";
 
-
-@import "mixins.less";
-@import "forms.less";
 
 @import "blocks/main-nav.less";
 @import "blocks/page-header.less";
@@ -12,67 +10,6 @@
 
 @import "global/fonts.less";
 @import "global/layouts.less";
-
-body  {
-  font-family: "PT Sans", sans-serif;
-  background-color: @body-bg;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color:#000000;
-  width: 100%;
-  min-width: 320px;
-  padding-right: auto;
-  padding-left: auto;
-  margin-left:  auto;
-  margin-right: auto;
-  box-sizing: border-box;
-
-}
-
-.main-nav {
-  display: flex;
-  background-color: @header-bg;
-  width:320px;
-  height:222px;
-}
-.main-nav__item {
-  color:@nav-link;
-  font-size: 18px;
-  line-height: 40px;
-}
-
-.intro__pict {
-  background-image: url("img/bg-triangle.svg");
-}
-
-.5reasons__title {
-  font-size: 18px;
-  line-height: 26px;
-  }
-
-.5reasons__text {
-    font-size: 14px;
-    line-height: 26px;
-  }
-
-.promo-wrapper{
-  background-color:@promo-wrapper-bg;
-  color: @nav-link;
-  font-size: 14px;
-  line-height: 21px;
-}
-
-.promo-wrapper__title{
-  font-size: 18px;
-  line-height: 26px;
-}
-
-.advantages {
-  background-color: @bg-advantages;
-}
 
 
 
