@@ -1,15 +1,31 @@
 body {
   font-family: "PT Sans", sans-serif;
-  background-color: @body-bg;
   font-size: 14px;
   line-height: 24px;
   color: @body-color;
-}
-
-* {
   box-sizing: border-box;
+  min-width:320px;
+  margin:0;
+  padding: 20px;
+  background: @body-bg url("/img/bg-back-mobile@1x.jpg") no-repeat 30% 0px;
+  background-size: 370px auto;
+  min-height: 217px;
 }
 
+
+@media @tablet-widths {
+  body {
+    background: @body-bg url("/img/bg-back-mobile@1x.jpg") no-repeat 30% 0px;
+    background-size: 1000px auto;
+  }
+}
+
+@media @desktop-widths {
+  body {
+    background: @body-bg ("/img/bg-back-mobile@1x.jpg") no-repeat 30% 0px;
+    background-size: 1100px auto;
+  }
+}
 
 
 

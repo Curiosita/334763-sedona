@@ -1,8 +1,59 @@
 .page-footer {
-  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 233px;
+
 }
 
 
+.hashtegsedona {
+  width: 160px;
+  min-height: 20px;
+  margin:0;
+  margin-bottom: 40px;
+}
+
+.social {
+  width: 160px;
+  min-height: 60px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.copyright {
+  width: 160px;
+  min-height: 20px;
+  margin: 0;
+
+}
+
+@media @tablet-widths {
+  .hashtegsedona {
+    min-height: 120px;
+    margin-right: 107px;
+    margin-bottom: 56px;
+  }
+
+  .social {
+    margin-bottom: 0;
+  }
+
+  .copyright {
+    position: absolute;
+    top: 54px;
+    right: 0;
+    width: 160px;
+    padding: 0;
+  }
+}
+
+@media @desktop-widths {
+  .page-footer {
+    justify-content: space-between;
+  }
+}
 
 
 
